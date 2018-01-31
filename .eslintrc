@@ -1,0 +1,21 @@
+{
+  "env": {
+    "browser": true,
+    "node": true,
+    "jest": true
+  },
+  "extends": "airbnb-base",
+  "rules": {
+    "max-len": [
+      2,
+      {
+        "ignoreComments": true,
+        "code": 80
+      }
+    ],
+    "semi": [
+      1,
+      "never"
+    ]
+  }
+}
